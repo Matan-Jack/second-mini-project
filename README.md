@@ -1,25 +1,31 @@
-# README: second mini project
+# Second Mini Project: Event-Related Potentials (ERP)
 
-## Project Documentation:
-The project analyzes Event-Related Potentials (ERP) from brain data to compute the average response for specific finger movements. Below is the workflow:
+## Project Objective:
+Analyze brain signals (ECOG data) to compute the average Event-Related Potential (ERP) for finger movements. The ERP reflects brain activity before, during, and after specific finger movements.
 
+### Workflow:
 1. **Load and Clean Data:**
-   - Load trial event points and ECOG data.
-   - Ensure column names and data types are valid.
-   - Handle missing or invalid data.
+   - Load the `trial_points` file (events) and `ecog_data` file (brain signals).
+   - Ensure proper column names and data types (`int` for trial points).
+   - Handle invalid or missing data.
 
 2. **Data Segmentation:**
-   - Define a time window around movement events.
-   - Extract and group signals by finger identifier.
+   - Extract brain signals for each event using a time window:
+     - 200 ms before the starting point.
+     - 1 ms at the starting point.
+     - 1000 ms after the starting point.
+   - Group data by finger identifier.
 
 3. **Compute Mean ERPs:**
-   - Average the signals for each finger.
-   - Store and visualize the results.
+   - For each finger, calculate the mean signal across all trials (length: 1201).
+   - Organize the mean signals into a 5x1201 matrix (`fingers_erp_mean`).
 
 4. **Visualization:**
-   - Plot ERPs for each finger with unique colors:
+   - Plot ERPs for all fingers using distinct colors.
+   - Display a time series (-200 ms to +1000 ms).
      ![image](https://github.com/user-attachments/assets/3292e25c-42b2-4f20-a4db-f205afd8657c)
-
+     
+### Running the Project:
 ## To run the project follow these commands:
 All commands should be run under the project root/working directory:
 
