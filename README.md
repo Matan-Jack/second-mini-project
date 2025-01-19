@@ -44,11 +44,10 @@ pip install pandas numpy matplotlib
 ## Running the Project:
 1. Place the trial points file (`events_file_ordered.csv`) and ECOG data file (`brain_data_channel_one.csv`) in the working directory.
 2. Update the file paths in the script:
-   ```python
    trial_points_file = r"C:\Users\matan\Downloads\mini_project_2_data\mini_project_2_data\events_file_ordered.csv"
    ecog_data_file = r"C:\Users\matan\Downloads\mini_project_2_data\mini_project_2_data\brain_data_channel_one.csv"
-   ```
 3. Run the script to compute and visualize the ERPs:
+   ```
 
 ## Visualization Output:
 - The script will generate a plot displaying the average ERP for each finger movement over time, with distinct colors for each finger.
