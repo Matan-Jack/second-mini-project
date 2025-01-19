@@ -1,3 +1,4 @@
+# README: second mini project
 
 ## Project Documentation:
 The project analyzes Event-Related Potentials (ERP) from brain data to compute the average response for specific finger movements. Below is the workflow:
