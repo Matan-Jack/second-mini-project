@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awae417/7950911?redirectedFrom=fulltext&login=false">
-      <img width="20%" src="https://img.freepik.com/premium-photo/brain-logo-icon-human-brain-icon-creative-simple-mind-symbol-vector-illustration_1162225-51928.jpg?w=740" alt="Brianlytics" />
-      <h1 align="center">Brianlytics</h1>
-  </a>
-</p>
 
 ## Project Documentation:
 The project analyzes Event-Related Potentials (ERP) from brain data to compute the average response for specific finger movements. Below is the workflow:
