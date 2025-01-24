@@ -54,7 +54,7 @@ def calc_mean_erp(trial_points, ecog_data):
 
     print(fingers_erp_mean)
 
-    # Return the transposed DataFrame with the name fingers_erp_mean
+    # Return the DataFrame with the name fingers_erp_mean
     return fingers_erp_mean
 
 # Usage
