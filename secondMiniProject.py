@@ -59,5 +59,5 @@ def calc_mean_erp(trial_points, ecog_data):
 
 # Usage
 trial_points = r"C:\Users\matan\Downloads\mini_project_2_data\mini_project_2_data\events_file_ordered.csv"
-ecog_data_file = r"C:\Users\matan\Downloads\mini_project_2_data\mini_project_2_data\brain_data_channel_one.csv"
-fingers_erp_mean = calc_mean_erp(trial_points, ecog_data_file)
+ecog_data = r"C:\Users\matan\Downloads\mini_project_2_data\mini_project_2_data\brain_data_channel_one.csv"
+fingers_erp_mean = calc_mean_erp(trial_points, ecog_data)
